@@ -28,3 +28,17 @@ class DecaanKiezer(Kiezer):
             print(f"{self.naam} heeft gestemd op {kandidaat} ({self.opleiding})")
         else:
             print(f"{self.naam} kan niet stemmen op {kandidaat} ({kandidaat.opleiding})")
+
+
+
+lijst_van_kandidaten = [
+    DecaanKandidaat("Jan Jansen", "Geneeskunde"),
+    DecaanKandidaat("Piet Pieters", "Natuurwetenschappen"),
+    DecaanKandidaat("Klaas Klaassen", "Letteren"),
+    DecaanKandidaat("Marie Marie", "Rechten"),
+    DecaanKandidaat("Anna Anna", "Economie"),
+    DecaanKandidaat("Elsa Elsa", "Techniek"),
+    DecaanKandidaat("Hans Hans", "Kunst"),
+    DecaanKandidaat("Sophie Sophie", "Sociale Wetenschappen"),
+]
+

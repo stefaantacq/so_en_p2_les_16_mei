@@ -31,6 +31,7 @@ class DecaanKiezer(Kiezer):
 
 
 
+<<<<<<< Updated upstream
 lijst_van_kandidaten = [
     DecaanKandidaat("Jan Jansen", "Geneeskunde"),
     DecaanKandidaat("Piet Pieters", "Natuurwetenschappen"),
@@ -41,4 +42,6 @@ lijst_van_kandidaten = [
     DecaanKandidaat("Hans Hans", "Kunst"),
     DecaanKandidaat("Sophie Sophie", "Sociale Wetenschappen"),
 ]
+=======
+>>>>>>> Stashed changes
 
